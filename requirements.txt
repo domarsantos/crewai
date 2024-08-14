@@ -1,5 +1,5 @@
 yfinance==0.2.41
-crewai==0.28.8
+crewai
 langchain==0.1.20
 langchain-openai
 langchain-community==0.0.38
