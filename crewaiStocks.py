@@ -18,7 +18,7 @@ from langchain_openai import ChatOpenAI
 from langchain_community.tools import DuckDuckGoSearchResults
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 llm = ChatOpenAI(model="gpt-3.5-turbo")
 
 # CRIANDO YAHOO FINANCE TOOL 
