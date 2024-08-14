@@ -143,4 +143,4 @@ if st.button('Run Research'):
 
         # result = crew.kickoff(inputs={'ticket': topic})
         st.subheader("Results of your research project:")
-        st.write(result)
+        st.write(result['final_output'])
